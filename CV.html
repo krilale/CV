@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <style>
+    @font-face { font-family: scribble; src: url('scribble.ttf'); }
+
+    .primaEsp {
+      font-family: scribble; sans-serif;
+      position: fixed;
+      bottom: 250px;
+    }
+
+    .Agente {
+      font-family: scribble; sans-serif;
+      position: fixed;
+      bottom: 200px;
+      left: 325px;
+    }
+
+    .gifAgente{
+      opacity: 100.0;
+      position: fixed;
+      bottom: 100px;
+      left: 700px;
+    }
+
+    .info1 {
+      font-family: scribble; sans-serif;
+      position: fixed;
+      bottom: 1100px;
+      left: 600px;
+      font-size: 170%;
+      color: inherit;
+    }
+    img {
+      width: 25%;
+    }
+    .image1 {
+      width:20%;
+        position: fixed;
+      left: 1100px;
+      bottom: 100px;
+    }
+    .freccia {
+      position:fixed;
+      left:100px;
+      bottom:50px;
+    }
+    body {
+      background-image: url('0123.gif');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      opacity: 70;
+    }
+    </style>
+
+  </head>
+
+  <body>
+    <center><img src="C:\Users\ADMIN\Downloads\kl5.png"> </img></center>
+    <img id="1" src="C:\Users\ADMIN\Downloads\gif.gif" class="image1"> </img>
+    <img src="C:\Users\ADMIN\Downloads\freccia.png" class="freccia" class="freccia"> </img>
+    <h1 class="primaEsp">Prima esperienza un p0' triste: </h1>
+
+
+    <h1 class="Agente">Agente di viaggio</h1>
+    <p id ="4" href "gifAgente.gif">Cliccami </p>
+    <a id="3" class="info1" href="gifAgente.gif" style="text-decoration:none">-clicca qui se non sai cos'e'-</a>
+
+
+  <!--  <img id ="2" src ="gifAgente.gif" class="gifAgente"> -->
+
+
+
+  </body>
+  <script>
+
+  document.getElementById("4").onclick = function() {myFunction()};
+
+  function myFunction() {
+  document.getElementById("1").src="gifAgente.gif";
+  document.getElementById("1").setAttribute("class", "gifAgente");
+  }
+
+
+</script>
+</html>
